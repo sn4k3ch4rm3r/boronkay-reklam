@@ -61,9 +61,12 @@
     font-family: 'Open Sans', 'Roboto', sans-serif, Arial;
 }
 
-header {
-    height: 300px;
+@media screen and (min-width: 768px) {
+    header {
+        height: 300px;
+    }
 }
+
 
 .large-nav {position: relative;
     display: flex;
