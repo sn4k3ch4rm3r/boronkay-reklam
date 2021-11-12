@@ -128,3 +128,11 @@
     margin: 10px auto;
     font-style: italic;
 }
+
+.overlay-flag{
+    position: absolute;
+    top:0;
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0) 40%, rgba(0,0,0,1));
+    mask-image: linear-gradient(to left, rgba(0,0,0,0) 40%, rgba(0,0,0,1));
+}
