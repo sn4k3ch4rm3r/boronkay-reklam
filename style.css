@@ -119,3 +119,12 @@
 .navbar-nav .nav-link:hover {
     color: var(--tertiary-dark) !important;
 }
+
+.history-image {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+    font-style: italic;
+}
